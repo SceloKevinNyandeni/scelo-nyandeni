@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Scelo Nyandeni | Junior Software Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Scelo Nyandeni, a junior software developer working across web, Spring Boot backends and GIS automation. Explore it through an interactive terminal.">
+  <meta name="theme-color" content="#0c0c0c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230c0c0c'/%3E%3Cpath d='M8 11l6 5-6 5M17 22h8' stroke='%23e03a3a' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap">
+      <a class="logo" href="#home" aria-label="Home"><span id="lg"></span><b>_</b></a>
+      <button id="mbtn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu">
+        <svg width="20" height="8" viewBox="0 0 20 8" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+          <path d="M0 1h20M4 7h16"/>
+        </svg>
+      </button>
+      <nav id="menu" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#terminal">Terminal</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <svg class="ln" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <path vector-effect="non-scaling-stroke" d="M0 80L50 30L100 78M50 0V100M50 30L100 0"/>
+      </svg>
+      <div class="wrap hero">
+        <div class="hg">
+          <h1 id="nm"></h1>
+          <p class="role" id="rl"></p>
+        </div>
+        <p class="hl" id="hl"></p>
+        <p class="intro" id="in"></p>
+        <div class="acts">
+          <a class="btn" id="go" href="#terminal">Explore My Terminal</a>
+          <a class="btn sec" id="gh" href="#terminal">View GitHub</a>
+        </div>
+        <div class="stat">
+          <span id="av"></span>
+          <span class="sys" id="sy"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="terminal">
+      <div class="wrap">
+        <span class="lb">[ 01 ]</span>
+        <h2>Explore my work the way I do: from the command line.</h2>
+        <div class="term" role="region" aria-label="Interactive terminal">
+          <div class="tb">
+            <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div class="tt">guest@portfolio:~</div>
+            <div class="on" aria-label="Status: online">&#9679; online</div>
+          </div>
+          <div class="tbody" id="tb">
+            <div id="out" role="log" aria-live="polite"></div>
+            <label class="ir">
+              <span class="pr" id="ps" aria-hidden="true">visitor@portfolio:~$</span>
+              <input id="inp" type="text" aria-label="Terminal command input" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="go">
+            </label>
+          </div>
+        </div>
+        <div class="chips" id="sh" aria-label="Suggested commands"></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <span class="lb">[ 02 ]</span>
+        <h2>Selected projects, from backend services to field mapping tools.</h2>
+        <div class="grid" id="pg"></div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <span class="lb">[ 03 ]</span>
+        <h2>The stack I work with, grouped by domain.</h2>
+        <div class="grid" id="sg"></div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="wrap">
+        <span class="lb">[ 04 ]</span>
+        <h2>Experience and education.</h2>
+        <div class="two">
+          <div>
+            <h3 class="sh">Experience</h3>
+            <div class="tl" id="xt"></div>
+          </div>
+          <div>
+            <h3 class="sh">Education</h3>
+            <div class="tl" id="et"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <span class="lb">[ 05 ]</span>
+        <h2>Let us build something useful together.</h2>
+        <div class="grid" id="cg"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap" id="ft"></div>
+  </footer>
+
+  <button class="fab" id="fab" type="button" hidden aria-label="Back to terminal">&gt;_ Terminal</button>
+  <dialog id="dlg" aria-label="Project details">
+    <div id="dc"></div>
+  </dialog>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
