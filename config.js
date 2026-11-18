@@ -14,9 +14,9 @@ const CFG = {
     about: {
         bio: ['Junior software developer with hands-on experience in web development, backend systems and data analysis.', 'Skilled in Java, JavaScript, PHP and SQL, with practical exposure to WordPress, Drupal, Spring Boot and RESTful APIs, plus a foundation in Agile development and database-driven applications. Customer-facing retail experience adds strong communication and teamwork.'],
         strengths: ['Verbal communication', 'Customer service and sales', 'Collaboration in technical and non-technical teams', 'Time management under pressure'],
-        interests: '',
-        philosophy: '',
-        goals: ''
+        interests: 'Software development, web and backend engineering, GIS automation, data analysis, problem-solving, learning new technologies',
+        philosophy: 'A firm believer in AI as a tool to enhance human capabilities, I strive to create software that is both functional and user-friendly, while continuously learning and adapting to new technologies.',
+        goals: 'Venturing into Software Testing and Quality Assurance, and Automation, with a focus on ensuring software reliability and performance. I aim to contribute to projects that make a tangible impact, while honing my skills in testing methodologies and automation.'
     },
     links: {
         github: 'https://github.com/SceloKevinNyandeni/',
